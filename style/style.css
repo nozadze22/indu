@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.active {
+  border-bottom: 2px solid red;
+  transition: 3ms;
+  border-top: 5px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+main .form {
+  width: 600px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 300px;
+  border-radius: 8px;
+  box-shadow: 10px 14px 50px 10px;
+  transition: 3s;
+  padding-bottom: 50px;
+}
+main .form .Titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+main .form .Titles .login {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+main .form .Titles .singup {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+main .form .log_inn .log_in {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+main .form .log_inn .log_in .log_Email {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  right: 180px;
+}
+main .form .log_inn .log_in .log_password {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  right: 165px;
+}
+main .form .log_inn .log_in #log_em_input {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-left: 5px;
+  transition: 2s linear;
+}
+main .form .log_inn .log_in #log_em_input:hover {
+  border-color: rgb(84, 43, 220);
+  border-radius: 8px;
+  border-bottom: 2px solid rgb(86, 79, 212);
+}
+main .form .log_inn .log_in #log_pass_input {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-left: 5px;
+  transition: 2s linear;
+}
+main .form .log_inn .log_in #log_pass_input:hover {
+  border-color: rgb(84, 43, 220);
+  border-radius: 8px;
+  border-bottom: 2px solid rgb(86, 79, 212);
+}
+main .form .log_inn .login_submit {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sing_upp {
+  display: none;
+}
+.sing_upp .sing_up {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.sing_upp .sing_up .up_labels {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 26px;
+  right: 180px;
+}
+.sing_upp .sing_up .up_inputs {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-left: 15px;
+  transition: 2s linear;
+}
+.sing_upp .sing_up .up_inputs::-webkit-input-placeholder {
+  font-size: 14px;
+  transition: 2s;
+}
+.sing_upp .sing_up .up_inputs:hover {
+  border-color: rgb(255, 0, 0);
+  border-radius: 8px;
+}
+.sing_upp .sing_up #repeat_password_lable {
+  position: relative;
+  right: 120px !important;
+}
+.sing_upp .sing_up #password_lable,
+.sing_upp .sing_up #username_lable {
+  position: relative;
+  right: 155px;
+}
+.sing_upp .sing_up .singup_submit {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=style.css.map */

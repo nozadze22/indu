@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body id="body">
+    <main class="main">
+
+        <div class="form">
+            <div class="Titles">
+                <h2 class="login active">log in</h2>
+            <h2 class="singup">Sing up</h2>
+            </div>
+
+        <div class="log_inn">
+            <section class="log_in">
+
+                <label class="log_Email" for="">Email</label>
+                <input type="email" placeholder="Enter Email" id="log_em_input" >
+                <label class="log_password" for="">Password</label>
+                <input type="password" placeholder="Enter password" id="log_pass_input">
+
+
+                <button class="login_submit">
+                    Log in
+                </button>
+            </section>
+        </div>
+
+
+            <div class="sing_upp">
+                
+            <section class="sing_up" >
+                <label class="up_labels" for="">Name</label>
+                <input type="text" placeholder="Enter Name" class="up_inputs" required id="name"> 
+
+                <label class="up_labels" for="" id="username_lable">Username</label>
+                <input type="text" placeholder="Enter Username" class="up_inputs" required id="username">
+
+                <label class="up_labels" for="">Email</label>
+                <input type="email" placeholder="Enter Email" class="up_inputs" required id="email">
+                
+                <label class="up_labels" for="">Tel</label>
+                <input type="tel" placeholder="+995..." class="up_inputs" id="tel">
+
+                <label class="up_labels" for=""  id="password_lable">Password</label>
+                <input type="password" placeholder="Enter password" class="up_inputs" required id="password">
+
+                <label class="up_labels" for=""  id="repeat_password_lable">repeat Password</label>
+                <input type="password" placeholder="Repeat password" class="up_inputs" required id="repeatPassword">
+
+                <button class="singup_submit">
+                     singup
+                </button>
+    
+            </section>
+            </div>
+
+           
+        </div>
+
+
+    </main>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./auth.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+@media screen and (max-width: 650px) {
+  main .form {
+    width: 90%;
+  }
+  main .form .log_in {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 485px) {
+  .log_in #log_em_input {
+    width: 85% !important;
+    margin: auto !important;
+  }
+  .log_in #log_pass_input {
+    width: 85% !important;
+    margin: auto !important;
+  }
+  .log_in .log_Email {
+    right: 130px !important;
+  }
+  .log_in .log_password {
+    right: 120px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .form {
+    margin-top: 100px !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .sing_upp .sing_up .up_inputs {
+    width: 85% !important;
+    margin: auto !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .sing_upp .sing_up .up_labels {
+    right: 120px !important;
+  }
+  .sing_upp .sing_up #repeat_password_lable {
+    right: 80px !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
